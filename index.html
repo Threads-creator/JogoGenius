@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Projeto Jogo Genius</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo Gênius</h1>
+        <div class="menu-info">
+            <div>
+                <h3>Pontos = <span id=pontos>0</span></h3>
+                <hr>
+                <h3>Nível atual = <span id=nivel>0</span></h3>
+                <p>Clicar em <b>Repetir sequência</b> diminui  os pontos em 10% do total</p>
+            </div>
+            <div class="alerta">
+                <h3 id="textAcertou">Clique nas cores em sequência</h3>
+                <h3 class="button-repetir">Repetir Sequência</h3>
+            </div>
+        </div>
+        <main>
+            <div class="main-game">
+                <div class="genius">
+                    <div class="area-red"></div>
+                    <div class="area-green"></div>
+                    <div class="area-yellow"></div>
+                    <div class="area-blue"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
